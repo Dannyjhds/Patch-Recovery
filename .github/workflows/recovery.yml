@@ -7,6 +7,7 @@ on:
         description: 'RECOVERY URL'
         required: true
         default: 'https://files.catbox.moe/(RECOMMENDED)'
+permissions: {contents: write}
 
 jobs:
   build:
